@@ -141,25 +141,25 @@ the optional paramers are the foloowing:
 
 ## get all month
 >  
-- **holidays/us/2018/?montc=3**
-- **holidays/?country=us&year=2018&montc=3**
+- **holidays/us/2018/?month=3**
+- **holidays/?country=us&year=2018&month=3**
 
 ## get all single day
 >  
-- **holidays/us/2018/?montc=3&day=20**:
-- **holidays/?country=us&year=2018&montc=3&day=20**
+- **holidays/us/2018/?month=3&day=20**:
+- **holidays/?country=us&year=2018&month=3&day=20**
 
 
 ## get all previous single day
 >  
-- **holidays/us/2018/?montc=3&day=20&previous=[anything]**:
-- **holidays/?country=us&year=2018&montc=3&day=20&previous=[anything]**
+- **holidays/us/2018/?month=3&day=20&previous=[anything]**:
+- **holidays/?country=us&year=2018&month=3&day=20&previous=[anything]**
 
 
 ## get all upcoming single day
 >  
-- **holidays/us/2018/?montc=3&day=20&upcoming=[anything]**:
-- **holidays/?country=us&year=2018&montc=3&day=20&upcoming=[anything]**
+- **holidays/us/2018/?month=3&day=20&upcoming=[anything]**:
+- **holidays/?country=us&year=2018&month=3&day=20&upcoming=[anything]**
 
 ## TEST
 For test I use phpUnit. to run the test it's required to have import the us.json file data into DB
